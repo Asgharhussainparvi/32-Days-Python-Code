@@ -1,0 +1,8 @@
+digraph fishbone {
+	rankdir=LR
+	Problem [label="Main Issue"]
+	Problem -> "Cause 1"
+	Problem -> "Cause 2"
+	"Cause 1" -> "Subcause 1.1"
+	"Cause 2" -> "Subcause 2.1"
+}
